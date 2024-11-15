@@ -13,7 +13,7 @@ conda activate crowd_counting_env
 
 pip3 install ipykernel
 
-python3 -m ipykernel install --user --name crowd_counting_env --display-name "crowd_counting_env"
+python3 -m ipykernel install --user --name crowd_counting_env --display-name crowd_counting_env
 
 pip3 install -r requirements.txt
 ```
@@ -40,7 +40,7 @@ The scripts will save the visualized results.
 
 ### Visualized Image
 
-![assets](./assets/IMG_133.png)
+![assets](./assets/demo.png)
 
 *Note: This is a demonstration. For higher accuracy, please customize the training strategy.*
 
